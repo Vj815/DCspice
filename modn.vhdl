@@ -16,8 +16,7 @@ begin
 if rst ='1' then
 Qtemp <= (OTHERS =>'0');
 elsif pr='1' then
-Prepared By : Prof. N. P. Mawale
-Department of Electronics & Telecommunication Engineering 27
+
 Qtemp <= (OTHERS =>'1');
 elsif falling_edge(clk) then
 if dir = '1' then
